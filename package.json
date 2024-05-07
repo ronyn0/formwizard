@@ -1,0 +1,24 @@
+{
+  "name": "formwizard",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ronyn0/formwizard.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ronyn0/formwizard/issues"
+  },
+  "homepage": "https://github.com/ronyn0/formwizard#readme",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
