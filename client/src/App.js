@@ -3,6 +3,7 @@
 import React from "react";
 import logo from "./logo.svg";
 import "./App.css";
+import MultiStepForm from './components/MultiStepForm';
 
 function App() {
   const [data, setData] = React.useState(null);
@@ -24,6 +25,11 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <p>{!data ? "Loading..." : data}</p>
       </header>
+      <body>
+        <p>
+          <MultiStepForm />
+        </p>
+      </body>
     </div>
   );
 }
